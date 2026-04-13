@@ -41,11 +41,11 @@ searchInput.addEventListener("input", () => {
 
 // cria botões UMA vez
 const btnPrev = document.createElement("button");
-btnPrev.innerHTML = '<img src="../assets/img/arrow-left.svg" alt="Anterior">';
+btnPrev.innerHTML = '<img src="./assets/img/arrow-left.svg" alt="Anterior">';
 btnPrev.className = "prev-btn";
 
 const btnNext = document.createElement("button");
-btnNext.innerHTML = '<img src="../assets/img/arrow-right.svg" alt="Próximo">';
+btnNext.innerHTML = '<img src="./assets/img/arrow-right.svg" alt="Próximo">';
 btnNext.className = "next-btn";
 
 controls.append(btnPrev, btnNext);
